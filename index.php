@@ -1,1 +1,0 @@
-<?php header( 'Location: /samples/magazine/index.html' ) ;  ?>
