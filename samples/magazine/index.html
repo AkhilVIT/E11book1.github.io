@@ -15,15 +15,6 @@
 	body{
 		background: linear-gradient(90deg,#86fde8,#fff);
 	}
-	.magazine-viewport .container{
- 
-  width: 848px;
-}
- .magazine{
-  width: inherit;
-
-}
-
 </style>
 </head>
 <body>
@@ -44,9 +35,9 @@
     </svg>
 <div id="canvas" style="z-index: 500;">
 <div class="zoom-icon zoom-icon-in"></div>
-<div class="magazine-viewport" id="magazine-viewport" style="width: 848px;">
-	<div class="container" style="width: 848px;" >
-		<div class="magazine" style="width: 848px;">
+<div class="magazine-viewport" id="magazine-viewport">
+	<div class="container" >
+		<div class="magazine">
 			<!-- Next button -->
 			<div ignore="1" class="next-button"></div>
 			<!-- Previous button -->
@@ -60,10 +51,9 @@
 	<div>
 		<ul>
 			<li class="i">
-				<img src="pages/4.jpg" width="76" height="100" class="page-1">
+				<img src="pages/1.jpg" width="76" height="100" class="page-1">
 				<span>1</span>
 			</li>
-		
 		<ul>
 	<div>	
 </div>
@@ -90,7 +80,7 @@ function loadApp() {
 			
 			// Magazine width
 
-			width: 922,
+			width:848,
 
 			// Magazine height
 
@@ -118,7 +108,7 @@ function loadApp() {
 
 			// The number of pages
 
-			pages: 12,
+			pages: 1,
 
 			// Events
 
